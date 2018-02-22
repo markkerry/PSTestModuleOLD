@@ -1,8 +1,1 @@
-These are the new release notes
-
-This has a number of important changes in that it is
-
-    - New
-    - Magical
-    - Better than the previous version
-                                                                                                 
+These are the release notes

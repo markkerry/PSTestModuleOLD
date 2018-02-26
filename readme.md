@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/f2ey4fxyc794a277/branch/master?svg=true)](https://ci.appveyor.com/project/markkerry/pstestmodule/branch/master)
+
 # PSTestModule
 
 PS Test Module - Plaster, Git, Pester, Appveyor

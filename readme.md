@@ -17,7 +17,21 @@ This is purely a learning experience for me using:
 
 * [Pester](https://github.com/pester/Pester) for unit/integration testing
 
-* [Appveyor](https://ci.appveyor.com/project/markkerry/pstestmodule/branch/master) for continuous integration
+* [Appveyor](https://ci.appveyor.com/project/markkerry/pstestmodule/branch/master) for continuous integration for Windows platform.
+
+Look into:
+
+* [PSDeploy]
+
+* [PSDepend]
+
+* [PSake](https://github.com/psake/psake) A build automation tool...
+
+or
+
+* [Invoke-Build](https://github.com/nightroman/Invoke-Build) another build automation tool...
+
+* [TravisCI](https://travis-ci.org) for continuous integration for non Windows platforms.
 
 ---
 

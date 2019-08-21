@@ -19,7 +19,7 @@ if ((Split-Path $ModuleBase -Leaf) -eq 'Tests') {
 Import-Module $ModuleBase\$ModuleName.psd1 -PassThru -ErrorAction Stop | Out-Null
 Describe "PSScriptAnalyzer rule-sets" -Tag Build , ScriptAnalyzer {
 
-    $Rules = Get-ScriptAnalyzerRule
+    $Rules = Get-ScriptAnalyzerRule | Where-Object {$_.RuleName -ne "PSAvoidTrailingWhitespace"}
     $scripts = Get-ChildItem $ModuleBase -Include *.ps1, *.psm1, *.psd1 -Recurse | Where-Object fullname -notmatch 'classes'
 
     foreach ( $Script in $scripts ) 

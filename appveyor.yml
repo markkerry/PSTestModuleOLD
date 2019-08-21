@@ -13,7 +13,7 @@ install:
 
 build: off
 
-test_script:
+build_script:
 # temporary to get build process working again... install pester and add to psmodulepath
 #  - ps: . .\build.ps1
 # Test with native PS version

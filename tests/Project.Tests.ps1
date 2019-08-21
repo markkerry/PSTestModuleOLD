@@ -32,7 +32,7 @@ Describe "PSScriptAnalyzer rule-sets" -Tag Build , ScriptAnalyzer {
                 if ($FunctionHelpTestExceptions -contains $rule.RuleName) { continue }
                 It "Rule [$rule]" {
 
-                    (Invoke-ScriptAnalyzer -Path $script.FullName -IncludeRule $rule.RuleName ).Count | Should Be 0
+                    (Invoke-ScriptAnalyzer -Path $script.FullName -IncludeRule $rule.RuleName).Count | Should Be 0
                 }
             }
         }
